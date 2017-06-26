@@ -1,0 +1,30 @@
+body {
+    background: #999;
+}
+
+#GotoTop {
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99999;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: progress;
+    ;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#GotoTop:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 991px) {
+    #GotoTop {
+        transform: scale(0.6);
+        margin-right: -20px;
+        margin-bottom: -20px;
+    }
+}
